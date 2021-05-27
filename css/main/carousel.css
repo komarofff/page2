@@ -1,0 +1,18 @@
+.carousel {
+  margin: 0 auto;
+  display: block;
+  overflow: hidden;
+  width: var(--box-width);
+}
+.carousel2 {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+  overflow: hidden;
+  width: var(--box-width);
+}
+.carousel__list-products {
+  display: inline-block;
+  width: 5000%;
+  transition: 0.5s ease-out;
+}

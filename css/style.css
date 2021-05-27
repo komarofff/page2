@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+@import "./vars.css";
+@import "./base.css";
+@import "./header/header.css";
+@import "./header/topmenu.css";
+@import "./header/cartmenu.css";
+@import "./header/megamenu.css";
+@import "./header/mobile-menu.css";
+@import "./header/slider.css";
+@import "./main/search.css";
+@import "./main/register.css";
+@import "./main/about.css";
+@import "./main/carousel.css";
+@import "./products/products-card.css";
+@import "./footer/footer.css";
+@import "./breakpoints.css";

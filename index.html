@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site 6</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="container">
+
+    <header class="header box">
+        <nav class="header__topmenu">
+            <a class="header__topmenu-link" href="#">Sell </a>
+            <a class="header__topmenu-link" href="#">Registry</a>
+            <a class="header__topmenu-link" href="#">Community</a>
+            <a class="header__topmenu-link" href="#">Blogs </a>
+            <a class="header__topmenu-link" href="#">Mobile</a>
+            <a class="header__topmenu-link" href="#">Gift Cards</a>
+        </nav>
+        <nav class="header__cartmenu">
+            <span class="header__logo"><img class="logo-img" src="images/logo.png" alt="logo"></span>
+            <span class="header__cartmenu-block">
+                <a class="header__cartmenu-link" href="#">Register</a>
+                <a class="header__cartmenu-link" href="#">Sing in</a>
+                <a class="header__cartmenu-link" href="#">Whishlist <img class="whish-img" src="images/whishlist.png"
+                        alt="whishlist"></a>
+                <a class="header__cartmenu-link" href="#">Cart <img class="cart-img" src="images/cart.png"
+                        alt="cart"></a>
+            </span>
+        </nav>
+        <nav class="header__megamenu">
+            <div class="start-mobile-menu">
+                <p class="mobile-menu-text"><img class="mobile-logo-img" src="images/logo.png" alt="logo"></p>
+                <p class="mobile-menu-icon">menu</p>
+            </div>
+            <ul class="header__megamenu-list" id="mobile">
+                <li class="close-menu none" id="close"><a class="header__megamenu-link" href="#">X - close</a></li>
+                <li><a class="header__megamenu-link" href="#">Art</a></li>
+                <li><a class="header__megamenu-link" href="#">Home & Living</a>
+                    <ul class="header__megamenu-internallist">
+                        <li><img class="megamenu-internallist-img" src="images/list-img.png" alt="img">
+                            <span>Item Name Here
+                                <p class="header__megamenu-internallist-paragraph">Lorem Ipsum is simply
+                                    dummy text of the</p>
+                                <a class="header__megamenu-internallist-link" href="#">More detail</a>
+                            </span>
+                        </li>
+                        <li><img class="megamenu-internallist-img" src="images/list-img.png" alt="img">
+                            <span>Item Name Here
+                                <p class="header__megamenu-internallist-paragraph">Lorem Ipsum is simply
+                                    dummy text of the</p>
+                                <a class="header__megamenu-internallist-link" href="#">More detail</a>
+                            </span>
+                        </li>
+                        <li><img class="megamenu-internallist-img" src="images/list-img.png" alt="img">
+                            <span>Item Name Here
+                                <p class="header__megamenu-internallist-paragraph">Lorem Ipsum is simply
+                                    dummy text of the</p>
+                                <a class="header__megamenu-internallist-link" href="#">More detail</a>
+                            </span>
+                        </li>
+                        <li> <a class="header__megamenu-see-all" href="#">See all items</a></li>
+                    </ul>
+                </li>
+                <li><a class="header__megamenu-link" href="#">Jewelry</a></li>
+                <li><a class="header__megamenu-link" href="#">Women</a></li>
+                <li><a class="header__megamenu-link" href="#">Men</a></li>
+                <li><a class="header__megamenu-link" href="#">Kids</a></li>
+                <li><a class="header__megamenu-link" href="#">Vintage</a></li>
+                <li><a class="header__megamenu-link" href="#">Weddings</a></li>
+                <li><a class="header__megamenu-link" href="#">More</a> </li>
+            </ul>
+        </nav>
+        <section class="header__slider box">
+            <article class="header__slider-big">
+                <img class="slider-image" src="images/slider-men.jpg" alt="slider1">
+                <span class="slider-image-block1">
+                    <h1 class="slider-image-block1-title">
+                        Men’s Wear
+                    </h1>
+                    <p class="slider-image-block1-text">Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry. Lorem</p>
+                    <h3 class="slider-image-block1-title-small">
+                        <a class="slider-block1-link" href="#">Lorem Ipsum is simply dummy </a>
+                    </h3>
+                </span>
+            </article>
+            <article class="header__slider-small">
+                <span class="header__slider-small">
+                    <img class="slider-image" src="images/slider-women.jpg" alt="slider2">
+                    <span class="slider-image-block2">
+                        <h1 class="slider-block2-title">Women’s Wear</h1>
+                        <p class="slider-block2-text">Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry. Lorem</p>
+                    </span>
+                </span>
+                <div class="header__slider-small-block">
+                    <img class="slider-image" src="images/slider-kids.jpg" alt="slider3">
+                    <div class="little-cart-stripe">
+                        <p class="stripe__text-blue">Baby shop</p>
+                        <p class="stripe__whish"><img src="images/whishlist.png" alt="whishlist"></p>
+                        <p class="stripe__cart"><img src="images/cart.png" alt="cart"></p>
+                        <p class="stripe__price">$ 99. <sup>00</sup></p>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </header>
+    <main class="main box">
+        <section class="main__search">
+            <article class="main__search-block1">
+                <form class="main__search-button" action="#">
+                    <input class="search__input" type="search" name="search" id="s1" value=""
+                        placeholder="Search your product here ( e.g.: Silver diamond ring )">
+                    <button class="search__button" type="submit"><img class="search__button-submit"
+                            src="images/search.png" alt="search-button"></button>
+                </form>
+                <div class="main__serch-craft">
+                    <img class="search-image" src="images/crafts.jpg" alt="crafts">
+                    <div class="little-cart-stripe-big">
+                        <p class="bigtext">Crafts</p>
+                        <p class="stripe__whish"><img src="images/whishlist.png" alt="whishlist"></p>
+                        <p class="stripe__cart"><img src="images/cart.png" alt="cart"></p>
+                        <p class="stripe__price">$ 99. <sup>00</sup></p>
+                    </div>
+                </div>
+            </article>
+            <article class="main__search-block2">
+                <div class="main__serch-jewelry">
+                    <img class="search-image" src="images/jewelry.jpg" alt="jewelry">
+                    <div class="little-cart-stripe-turning">
+                        <p class="stripe__text-dark">Jewelry</p>
+                        <p class="stripe__whish"><img src="images/whishlist.png" alt="whishlist"></p>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="main__new-products">
+            <span class="line-header">
+                <h1 class="all-blocks-title">New products</h1>
+                <div class="arrows">
+                    <span class="arrow-left" id="left1"></span>
+                    <span class="arrow-right" id="right1"></span>
+                </div>
+            </span>
+            <p class="line"></p>
+            <div class="carousel">
+                <div class="carousel__list-products" id="slide1">
+                    <div class="product__card-new">
+                        <img class="product__card-new-img" src="images/np1.jpg" alt="new product">
+                        <div class="little-cart-stripe-new">
+                            <p class="stripe__text-blue">Bugs</p>
+                            <p class="stripe__whish"><img src="images/whishlist.png" alt="whishlist"></p>
+                            <p class="stripe__cart"><img src="images/cart.png" alt="cart"></p>
+                            <p class="stripe__price">$ 99. <sup>00</sup></p>
+                        </div>
+                    </div>
+                    <div class="product__card-new">
+                        <img class="product__card-new-img" src="images/np2.jpg" alt="new product">
+                        <div class="little-cart-stripe-new">
+                            <p class="stripe__text-blue">Crafts</p>
+                            <p class="stripe__whish"><img src="images/whishlist.png" alt="whishlist"></p>
+                            <p class="stripe__cart"><img src="images/cart.png" alt="cart"></p>
+                            <p class="stripe__price">$ 99. <sup>00</sup></p>
+                        </div>
+                    </div>
+                    <div class="product__card-new">
+                        <img class="product__card-new-img" src="images/np3.jpg" alt="new product">
+                        <div class="little-cart-stripe-new">
+                            <p class="stripe__text-blue">Watchs</p>
+                            <p class="stripe__whish"><img src="images/whishlist.png" alt="whishlist"></p>
+                            <p class="stripe__cart"><img src="images/cart.png" alt="cart"></p>
+                            <p class="stripe__price">$ 99. <sup>00</sup></p>
+                        </div>
+                    </div>
+                    <div class="product__card-new">
+                        <img class="product__card-new-img" src="images/np1.jpg" alt="new product">
+                        <div class="little-cart-stripe-new">
+                            <p class="stripe__text-blue">Bugs</p>
+                            <p class="stripe__whish"><img src="images/whishlist.png" alt="whishlist"></p>
+                            <p class="stripe__cart"><img src="images/cart.png" alt="cart"></p>
+                            <p class="stripe__price">$ 99. <sup>00</sup></p>
+                        </div>
+                    </div>
+                    <div class="product__card-new">
+                        <img class="product__card-new-img" src="images/np2.jpg" alt="new product">
+                        <div class="little-cart-stripe-new">
+                            <p class="stripe__text-blue">Crafts</p>
+                            <p class="stripe__whish"><img src="images/whishlist.png" alt="whishlist"></p>
+                            <p class="stripe__cart"><img src="images/cart.png" alt="cart"></p>
+                            <p class="stripe__price">$ 99. <sup>00</sup></p>
+                        </div>
+                    </div>
+                    <div class="product__card-new">
+                        <img class="product__card-new-img" src="images/np3.jpg" alt="new product">
+                        <div class="little-cart-stripe-new">
+                            <p class="stripe__text-blue">Watchs</p>
+                            <p class="stripe__whish"><img src="images/whishlist.png" alt="whishlist"></p>
+                            <p class="stripe__cart"><img src="images/cart.png" alt="cart"></p>
+                            <p class="stripe__price">$ 99. <sup>00</sup></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main__featured-products">
+            <span class="line-header">
+                <h1 class="all-blocks-title">Featured products</h1>
+                <div class="arrows">
+                    <span class="arrow-left" id="left2"></span>
+                    <span class="arrow-right" id="right2"></span>
+                </div>
+            </span>
+            <p class="line"></p>
+            <div class="carousel2">
+                <div class="carousel__list-products" id="slide2">
+                    <div class="product__card">
+                        <img class="product__card-img" src="images/fp1.jpg" alt=" product">
+                        <div class="product__description">
+                            <h3>Product Title here</h3>
+                            <h5>Short Description here</h5>
+                            <div class="product__description-block">
+                                <span class="product__description-paragraph"><img src="images/arrows-small.png"
+                                        alt="arrows"></span>
+                                <span class="product__description-paragraph"><img src="images/gift-small.png"
+                                        alt="gift"></span>
+                                <span class="product__description-paragraph"><img src="images/cart-small.png"
+                                        alt="cart"></span>
+                                <span class="product__description-price">$ 99. <sup>00</sup></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__card">
+                        <img class="product__card-img" src="images/fp2.jpg" alt="product">
+                        <div class="product__description">
+                            <h3>Product Title here</h3>
+                            <h5>Short Description here</h5>
+                            <div class="product__description-block">
+                                <span class="product__description-paragraph"><img src="images/arrows-small.png"
+                                        alt="arrows"></span>
+                                <span class="product__description-paragraph"><img src="images/gift-small.png"
+                                        alt="gift"></span>
+                                <span class="product__description-paragraph"><img src="images/cart-small.png"
+                                        alt="cart"></span>
+                                <span class="product__description-price">$ 129. <sup>00</sup></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__card">
+                        <img class="product__card-img" src="images/fp3.jpg" alt=" product">
+                        <div class="product__description">
+                            <h3>Product Title here</h3>
+                            <h5>Short Description here</h5>
+                            <div class="product__description-block">
+                                <span class="product__description-paragraph"><img src="images/arrows-small.png"
+                                        alt="arrows"></span>
+                                <span class="product__description-paragraph"><img src="images/gift-small.png"
+                                        alt="gift"></span>
+                                <span class="product__description-paragraph"><img src="images/cart-small.png"
+                                        alt="cart"></span>
+                                <span class="product__description-price">$ 56. <sup>00</sup></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__card">
+                        <img class="product__card-img" src="images/fp4.jpg" alt=" product">
+                        <div class="product__description">
+                            <h3>Product Title here</h3>
+                            <h5>Short Description here</h5>
+                            <div class="product__description-block">
+                                <span class="product__description-paragraph"><img src="images/arrows-small.png"
+                                        alt="arrows"></span>
+                                <span class="product__description-paragraph"><img src="images/gift-small.png"
+                                        alt="gift"></span>
+                                <span class="product__description-paragraph"><img src="images/cart-small.png"
+                                        alt="cart"></span>
+                                <span class="product__description-price">$ 99. <sup>00</sup></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__card">
+                        <img class="product__card-img" src="images/fp1.jpg" alt=" product">
+                        <div class="product__description">
+                            <h3>Product Title here</h3>
+                            <h5>Short Description here</h5>
+                            <div class="product__description-block">
+                                <span class="product__description-paragraph"><img src="images/arrows-small.png"
+                                        alt="arrows"></span>
+                                <span class="product__description-paragraph"><img src="images/gift-small.png"
+                                        alt="gift"></span>
+                                <span class="product__description-paragraph"><img src="images/cart-small.png"
+                                        alt="cart"></span>
+                                <span class="product__description-price">$ 99. <sup>00</sup></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__card">
+                        <img class="product__card-img" src="images/fp2.jpg" alt="product">
+                        <div class="product__description">
+                            <h3>Product Title here</h3>
+                            <h5>Short Description here</h5>
+                            <div class="product__description-block">
+                                <span class="product__description-paragraph"><img src="images/arrows-small.png"
+                                        alt="arrows"></span>
+                                <span class="product__description-paragraph"><img src="images/gift-small.png"
+                                        alt="gift"></span>
+                                <span class="product__description-paragraph"><img src="images/cart-small.png"
+                                        alt="cart"></span>
+                                <span class="product__description-price">$ 129. <sup>00</sup></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__card">
+                        <img class="product__card-img" src="images/fp3.jpg" alt=" product">
+                        <div class="product__description">
+                            <h3>Product Title here</h3>
+                            <h5>Short Description here</h5>
+                            <div class="product__description-block">
+                                <span class="product__description-paragraph"><img src="images/arrows-small.png"
+                                        alt="arrows"></span>
+                                <span class="product__description-paragraph"><img src="images/gift-small.png"
+                                        alt="gift"></span>
+                                <span class="product__description-paragraph"><img src="images/cart-small.png"
+                                        alt="cart"></span>
+                                <span class="product__description-price">$ 56. <sup>00</sup></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__card">
+                        <img class="product__card-img" src="images/fp4.jpg" alt=" product">
+                        <div class="product__description">
+                            <h3>Product Title here</h3>
+                            <h5>Short Description here</h5>
+                            <div class="product__description-block">
+                                <span class="product__description-paragraph"><img src="images/arrows-small.png"
+                                        alt="arrows"></span>
+                                <span class="product__description-paragraph"><img src="images/gift-small.png"
+                                        alt="gift"></span>
+                                <span class="product__description-paragraph"><img src="images/cart-small.png"
+                                        alt="cart"></span>
+                                <span class="product__description-price">$ 99. <sup>00</sup></span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <h1 class="all-blocks-title">Who we are</h1>
+        <p class="line"></p>
+        <section class="main__about-us">
+            <p class="about-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text
+                ever since the 1500s, when an unknown printer took a galley of type
+                and scrambled it to make a type specimen book. It has survived not
+                only five centuries, but also the leap into electronic typesetting,
+                remaining essentially unchanged. It was popularised in the 1960s
+                with the release of Letraset sheets containing Lorem Ipsum passages,
+                and more recently with desktop publishing software like Aldus
+                PageMaker including versions of Lorem Ipsum.</p>
+            <div class="register">
+                <img class="register__img" src="images/register1.jpg" alt="register1">
+                <img class="register__img" src="images/register2.jpg" alt="register2">
+                <img class="register__img" src="images/register3.jpg" alt="register3">
+            </div>
+            <button class="register__button">Register now</button>
+        </section>
+    </main>
+    <footer class="footer box">
+        <p class="line"></p>
+        <section class="footer__list-links">
+            <div class="footer__block">
+                <h2 class="footer__list-links-title">shopping with us</h2>
+
+                <a href="#"> why shop with us?</a>
+                <a href="#"> how it works</a>
+                <a href="#"> delivery</a>
+                <a href="#"> returns</a>
+                <a href="#"> where's my order</a>
+                <a href="#"> contact & help</a>
+                <a href="#"> wedding list</a>
+                <a href="#"> wish lists</a>
+                <a href="#"> gift vouchers</a>
+
+            </div>
+            <div class="footer__block">
+                <h2 class="footer__list-links-title">about us</h2>
+                <a href="#">our story</a>
+                <a href="#">customer contact</a>
+                <a href="#">awards</a>
+                <a href="#">press centre</a>
+                <a href="#">work with us</a>
+                <a href="#">terms & conditions</a>
+                <a href="#">privacy & cookies</a>
+            </div>
+            <div class="footer__block">
+                <h2 class="footer__list-links-title">selling with us</h2>
+                <a href="#">why join?</a>
+                <a href="#">faqs</a>
+                <a href="#">apply to sell with us</a>
+                <a href="#">affiliates</a>
+            </div>
+            <div class="footer__block">
+                <h2 class="footer__list-links-title">Signup newsletter</h2>
+                <form class="footer__subscribe" action="#" name="form2">
+                    <input type="email" name="email" id="input2" value="e.g.: abc@domain.com">
+                    <input type="submit" value="Subscribe now">
+                </form>
+                <h2 class="footer__list-links-title">Keep in touch</h2>
+                <span>
+                    <img src="images/facebook.png" alt="facebook">
+                    <!-- <img src="images/flickr.png" alt="fl"> -->
+                    <img src="images/rss.png" alt="rss">
+                    <img src="images/twitter.png" alt="twitter">
+                    <img src="images/google.png" alt="google">
+                </span>
+            </div>
+        </section>
+        <p class="line"></p>
+        <section class="footer__copyright">
+            <p class="footer__copy-text">Copyright © 2021 Gift Shop, All right reserved</p>
+            <p class="footer__copy-text">Anatoliy Komarov 2021 / FLEX</p>
+            <p class="footer__copy-text">Designed by <a class="footer__copy-link" href="#">Amysxain</a></p>
+        </section>
+        <p class="line"></p>
+    </footer>
+    <script src="scripts/slider.js"></script>
+    <script src="scripts/mobile.js"></script>
+
+</body>
+
+</html>
